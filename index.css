@@ -1,0 +1,69 @@
+.profilePicture {
+      size: 50px;
+      border-radius: 100%;
+      margin-bottom: 2em;
+  }
+
+body {
+    font-family: "Montserrat", sans-serif;
+    overflow: scroll;
+    margin-left: 2em;
+    margin-right: 2em; 
+    color: black;
+    font-size: 18px
+} 
+
+h1 {
+    font-size: 10px;
+    text-align: center;
+    border: 0.19px solid rgb(7, 7, 7);
+    border-radius: 0.31px;
+    padding: 1.56px;
+    top: 0.63em;
+    letter-spacing: 0.2em;
+}
+
+main {
+    margin-top: 5%;
+}
+
+p {
+    min-width: 200px;
+    min-height: 50px;
+    
+}
+
+main h2 {
+  font-size: 2em;
+  color: rgb(7, 7, 7);  
+}
+
+h3 {
+  color: rgb(7, 7, 7); 
+}
+
+footer {
+    padding: 1em;
+    font-size: 1.125rem;
+    color: #c9d823;
+    text-align: center;
+  }
+
+.images .image-container {
+    display: in-line block;
+    width: 50%;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (min-resolution: 300dpi) {
+}
